@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="423dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="整存整付計算機："
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="本金（NT$）："
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+    <TextView
+        android:id="@+id/input_lend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="年利率(%)："
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+    <TextView
+        android:id="@+id/input_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="存款期數："
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+    <TextView
+        android:id="@+id/input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:text="計算本利率" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_weight="1"
+        android:ems="10"
+         />
+
+</LinearLayout>
